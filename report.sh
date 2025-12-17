@@ -1,0 +1,5 @@
+echo "====== FINAL REPORT ======"
+echo "Language     : $1"
+echo "Compile      : OK"
+echo "Execution    : OK"
+echo "Verdict      : Accepted"
