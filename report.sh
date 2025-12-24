@@ -1,5 +1,16 @@
+filename="$1"
+result="$2"
+ext="${filename##*.}"
+
 echo "====== FINAL REPORT ======"
-echo "Language     : $1"
+
+
+echo "Language     : $ext"
 echo "Compile      : OK"
 echo "Execution    : OK"
-echo "Verdict      : Accepted"
+if [ "$result" -eq 0 ];
+then
+  echo "Verdict      : Accepted"
+else
+  echo "Verdict      : Failed"
+fi

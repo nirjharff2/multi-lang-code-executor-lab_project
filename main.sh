@@ -14,7 +14,7 @@ fi
 
 
 
-bash readfile.sh "$filename"
+bash read_file.sh "$filename"
 if [ $? -ne 0 ];
 then
   echo "Failed at language detection / dependency check"
